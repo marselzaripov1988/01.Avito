@@ -1,0 +1,11 @@
+POST  http://localhost:8080/flats/
+Content-Type: application/json
+
+{
+  "rooms": 2,
+  "district": "Приволжский",
+  "price": 500
+}
+###
+
+GET http://localhost:8080/flats/filter?min_price=400&max_price=600
